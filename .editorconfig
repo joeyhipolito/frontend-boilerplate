@@ -9,7 +9,7 @@ end_of_line              = lf
 insert_final_newline     = true
 trim_trailing_whitespace = true
 
-[*.{js, coffee, sass, scss, css}]
+[*.{js,coffee,sass,scss,css}]
 indent_size = 2
 
 [*.md]
