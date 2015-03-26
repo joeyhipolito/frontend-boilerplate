@@ -9,7 +9,7 @@ module.exports = {
     }
   },
   sass: {
-    src      : src + '/styles/**/*.{sass, scss}',
+    src      : src + '/styles/**/*.{sass,scss}',
     dest     : dest,
     settings : {
       indentedSynatax : true,
@@ -24,9 +24,9 @@ module.exports = {
     // each element of the array will be a separate bundle
     bundleConfigs: [
       {
-        entries    : src + '/scripts/common.js',
+        entries    : src + '/scripts/vendors.js',
         dest       : dest,
-        outputName : 'common.js',
+        outputName : 'vendors.js',
         // require    : ['jquery']
       },
       {
